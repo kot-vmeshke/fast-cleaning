@@ -1,1 +1,5 @@
-# fast-cleaning
+# Fast cleaning
+## Training project
++ Design
++ HTML
++ CSS
