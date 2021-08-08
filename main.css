@@ -109,7 +109,8 @@ body {
   box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.next {
+.next,
+.win-button-ok {
   display: block;
   margin-left: 20px;
   width: 238px;
@@ -178,4 +179,47 @@ body {
   background: url(./img/telegram.svg) center center no-repeat;
   border: 1px solid black;
   border-radius: 50%;
+}
+
+.win-ok {
+  position: absolute;
+  top: calc(50% - 127px);
+  left: calc(50% - 338px);
+  width: 676px;
+  height: 254px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.win-content {
+  position: relative;
+  padding: 55px 0;
+}
+
+.win-text {
+  margin-bottom: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.win-button-ok {
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.win-button-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  background: url(./img/button-close.svg) center center no-repeat;
+  border: none;
+  cursor: pointer;
 }
